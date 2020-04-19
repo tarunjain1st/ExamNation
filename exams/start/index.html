@@ -5,6 +5,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
     <title>Exam - ExamNation</title>
+    <link rel = "icon" href = "https://img.icons8.com/officel/16/000000/test-passed.png" type = "image/x-icon">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="assets/css/styles.css">
@@ -12,50 +13,63 @@
 <body onload="f2()">
     <div class="nav">
         <img src="assets/img/exam.png"/>
-        <a href="#">Exam Nation <p>Online Exam Portal</p></a>
+        <a href="#">ExamNation <p>Online Exam Portal</p></a>
     </div>
     <div class="bar-line"></div>
     <main>
         <div class="div-left">
-            
+           <div class="upper-left-div">
+        <h1>This is Question Section</h1>
+      </div>
+      <hr style="border-decoration:none">
+      <div class="lower-left-div">
+
+        <div class="input-group input-group-lg">
+
+          <input type="text" class="form-control" value="Write your answer here..." aria-label="Sizing example input" aria-describedby="inputGroup-sizing-lg">
         </div>
-        
+      </div>
+
+        </div>
+
         <div class="div-right1">
-            <div class="time-var">0</div>            
+            <div class="time-var">0</div>
             <div class="time-var" id="min-field">0</div>
             <div class="time-var" id="sec-field">0</div>
-            <div class="time-case">Hours</div> 
+            <div class="time-case">Hours</div>
             <div class="time-case">Minutes</div>
             <div class="time-case">Seconds</div>
-        </div>        
-        
+        </div>
+
         <div class="div-right2">
             <div class="head-labels">
                 <label>Subject</label>
             </div>
             <div class="contents">
-                
-            </div>            
-            <div class="exam-submit">
+
             </div>
-        </div>        
-        
+            <div class="exam-submit">
+                <img src="assets/img/icon_check.png">
+                <label>FinishExam</label>
+            </div>
+        </div>
+
         <div class="div-right3">
-            
+
             <div class="head-labels">
                 <label>Legend</label>
             </div>
-            
+
             <div class="cam-area">
 	           <video autoplay="true" id="videoElement"></video>
             </div>
         </div>
     </main>
-    
+
     <script src="assets/js/main.js"></script>
     <script src="assets/js/jquery.min.js"></script>
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
-    
+
 </body>
 
 </html>
